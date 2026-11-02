@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Training outputs and large files (kept out of Git)
+data/*
+models/*
+logs/*
+runs/
+wandb/
+!data/.gitkeep
+!models/.gitkeep
+!logs/.gitkeep
+*.pt
+*.pth
+*.onnx
+*.zip
+*.mp4
